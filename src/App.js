@@ -63,7 +63,7 @@ function App() {
       <Router basename={process.env.PUBLIC_URL}>
         <div className='navBar dark'>
           <div className='navLinks'>
-            <Link className='link dark' to='/*' state={{ theme: theme }}> Home </Link>
+            <Link className='link dark' to='/' state={{ theme: theme }}> Home </Link>
             <Link className='link dark' to='/confessional' state={{ theme: theme }}> Random confessions </Link>
           </div>
           <div className="themeToggle">

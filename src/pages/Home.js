@@ -61,7 +61,7 @@ function Home() {
         let input = {
             confessionText: text
         };
-        axios.post('http://localhost:4004/confessions', input);
+        axios.post('https://confessional-server-chbchan.vercel.app/confessions', input);
         
         //Close Modal
         setOpenModal(false);

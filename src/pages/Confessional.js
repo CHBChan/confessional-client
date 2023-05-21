@@ -17,7 +17,7 @@ function Confessional() {
   // HTTP requests handler to retrieve random confessions from backend
   const getConfessions = () => {
 
-    axios.get('http://localhost:4004/confessions').then((response) => {
+    axios.get('https://confessional-server-chbchan.vercel.app/confessions').then((response) => {
 
       setListofConfessions(response.data);
     });

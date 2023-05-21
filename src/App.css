@@ -9,6 +9,8 @@ html, body, #root, #root > div {
   display: flex;
   flex-direction: column;
   height: 100%;
+
+  font-family: 'Lora', serif;
 }
 
 p {
@@ -38,8 +40,9 @@ p {
   gap: 32px;
 }
 
-.navLinks a {
+.navLinks a, .toggleLabel {
 
+  font-size: 18px;
   text-decoration: none;
 }
 
@@ -59,9 +62,6 @@ p {
 
   background-color: #222831;
   padding: 32px;
-
-  font-family: 'Lora', serif;
-  font-family: 'Roboto', sans-serif;
 }
 
 .box .row.header {
