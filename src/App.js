@@ -1,4 +1,5 @@
 import './App.css';
+import { GoMarkGithub } from 'react-icons/go';
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from './pages/Home';
@@ -76,6 +77,12 @@ function App() {
           <Route path='/confessional' element={<Confessional/>}/>
         </Routes>
       </Router>
+      <div className='footer dark'>
+        <div className='signature'>
+        <p>Site created by <a href='https://github.com/CHBChan' target='_blank' rel='noopener noreferrer'>CHBChan</a></p>
+        <GoMarkGithub size={28}/>
+        </div>
+      </div>
     </div>
   );
 }

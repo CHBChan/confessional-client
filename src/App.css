@@ -40,10 +40,35 @@ p {
   gap: 32px;
 }
 
-.navLinks a, .toggleLabel {
+a, p {
 
   font-size: 18px;
   text-decoration: none;
+}
+
+.footer {
+  
+  display: flex;
+  justify-content: right;
+  
+  padding-right: 16px;
+}
+
+.signature {
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.signature > p > a {
+  
+  color: orange;
+}
+
+.signature > * {
+  
+  font-weight: bold;
 }
 
 .themeToggle {
@@ -149,6 +174,8 @@ button {
   color: #EEEEEE;
 
   font-size: 24px;
+
+  font-family: 'Lora', serif;
 }
 
 button.light {
