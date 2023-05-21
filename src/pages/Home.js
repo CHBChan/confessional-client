@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useEffect} from 'react';
+import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import Modal from '../Components/Modal';
 import axios from 'axios';

@@ -60,7 +60,7 @@ function App() {
   return (
     
     <div className='App'>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className='navBar dark'>
           <div className='navLinks'>
             <Link className='link dark' to='/*' state={{ theme: theme }}> Home </Link>
