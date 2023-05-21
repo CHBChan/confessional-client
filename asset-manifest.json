@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/confession-client/static/css/main.35da4ff5.css",
-    "main.js": "/confession-client/static/js/main.6b80ca60.js",
-    "index.html": "/confession-client/index.html",
-    "main.35da4ff5.css.map": "/confession-client/static/css/main.35da4ff5.css.map",
-    "main.6b80ca60.js.map": "/confession-client/static/js/main.6b80ca60.js.map"
+    "main.css": "/confessional-client/static/css/main.35da4ff5.css",
+    "main.js": "/confessional-client/static/js/main.fab1661b.js",
+    "index.html": "/confessional-client/index.html",
+    "main.35da4ff5.css.map": "/confessional-client/static/css/main.35da4ff5.css.map",
+    "main.fab1661b.js.map": "/confessional-client/static/js/main.fab1661b.js.map"
   },
   "entrypoints": [
     "static/css/main.35da4ff5.css",
-    "static/js/main.6b80ca60.js"
+    "static/js/main.fab1661b.js"
   ]
 }
