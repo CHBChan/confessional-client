@@ -8,7 +8,7 @@ You can send confessions from the frontend to a dedicated server to be stored. Y
 
 You can test the project here: https://chbchan.github.io/confessional-client/
 
-**The response to retrieve confessions from the backend can be slow since I'm too poor to pay for a server**
+***The response to retrieve confessions from the backend can be slow since I'm too poor to pay for a server***
 
 ## Frameworks/Libraries used for the frontend:
 [React.js](https://react.dev/)
