@@ -2,6 +2,9 @@
 
 This is the frontend of the confessional project I came up with on a whim. Over all, the project was fairly simple but I learned a lot, particularly the [backend](https://github.com/CHBChan/confessional-server).
 
+### Description
+
+You can send confessions from the frontend to a dedicated server to be stored. You can also look at random confessions from other users retrieved from the backend.
 
 You can test the project here: https://chbchan.github.io/confessional-client/
 
