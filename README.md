@@ -5,7 +5,7 @@ This is the frontend of the confessional project I came up with on a whim. Over 
 
 You can test the project here: https://chbchan.github.io/confessional-client/
 
-**The response to retrieve confessions from the backend can be slow since I'm too poor to pay for one**
+**The response to retrieve confessions from the backend can be slow since I'm too poor to pay for a server**
 
 ## Frameworks/Libraries used for the frontend:
 [React.js](https://react.dev/)
