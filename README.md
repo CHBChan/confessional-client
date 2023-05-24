@@ -13,6 +13,8 @@ You can test the project here: https://chbchan.github.io/confessional-client/
 ## Frameworks/Libraries used for the frontend:
 [React.js](https://react.dev/)
 
+[React Router](https://reactrouter.com/en/main)
+
 [Axios](https://axios-http.com/)
 
 [uuidv4](https://github.com/thenativeweb/uuidv4#readme)
