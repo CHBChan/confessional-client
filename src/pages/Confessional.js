@@ -32,6 +32,9 @@ function Confessional() {
   return (
     <div className={`box ${theme}`}>
       <div className='confessionList'>
+        {listOfConfessions.length === 0 && 
+          <p>Retrieving confessions...</p>
+        }
         {listOfConfessions.map(confession => {
           return <ConfessionCard key={uuidv4()} confession={confession} theme={theme}/>
         })}
